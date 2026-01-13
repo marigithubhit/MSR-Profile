@@ -10,12 +10,12 @@ import Services from './pages/Services';
 import './App.css';
 
 const App = () => {
- const [loading, setLoading] = useState(true);
+ //const [loading, setLoading] = useState(true);
   const [isModalOpen, setIsModalOpen] = useState(false); 
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setLoading(false);
+      //setLoading(false);
     }, 2000);
 
     return () => clearTimeout(timer);
